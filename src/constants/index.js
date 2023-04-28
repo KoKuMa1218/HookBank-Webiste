@@ -1,9 +1,10 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield,
+ star,BPKiosk  } from "../assets";
 
 export const navLinks = [
   {
     id: "home",
-    title: "Home",
+    title: "หน้าหลัก",
   },
   {
     id: "features",
@@ -11,7 +12,7 @@ export const navLinks = [
   },
   {
     id: "product",
-    title: "Product",
+    title: "ผลิตภัณฑ์",
   },
   {
     id: "clients",
@@ -23,23 +24,37 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Health Tech Solution",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "ให้บริการ Software Package และ Health Solution ที่เหมาะสมกับโรงพยาบาล เพื่อการใช้งานที่รวดเร็วและมีประสิทธิภาพสูงสุด ทั้ง Software และ Hardware",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "Software Implement Solution",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "เริ่มต้นจากการให้คำปรึกษาและวิเคราะห์ พัฒนา จนได้ซอฟต์แวร์ที่สมบูรณ์ที่ใช้ในบริษัทลูกค้า (ทั้ง Web & Window Application) นอกจากนี้ เรามีบริการบำรุงรักษาหลังการขาย เพื่อให้ทำงานได้อย่างราบรื่นและมีประสิทธิภาพ",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Software Package Solution",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "จัดหา Software Package และ Solution ที่เหมาะสมกับลูกค้าเพื่อการใช้งานที่รวดเร็วและมีประสิทธิภาพสูงสุดในองค์กร",
+  },
+  {
+    id: "feature-3",
+    icon: star,
+    title: "Mobile Application Solution",
+    content:
+      "นำเสนอโซลูชันแอปพลิเคชันมือถือที่ปรับให้เหมาะกับระบบปฏิบัติการ iOS และ Android ทำงานบนแพลตฟอร์มเซิร์ฟเวอร์ที่เชื่อถือได้ และ ปลอดภัยหรือสภาพแวดล้อมไอทีบนคลาวด์",
+  },
+  {
+    id: "feature-3",
+    icon: shield,
+    title: "Infrastructure Solution",
+    content:
+      "เพื่อรองรับลูกค้าในด้านต่างๆ ที่เกี่ยวข้องกับโครงสร้างพื้นฐาน เช่น การติดตั้งระบบ วางระบบเครือข่าย และบริหารจัดการระบบ Network หรือ Cloud Server เป็นต้น",
   },
 ];
 
@@ -64,27 +79,28 @@ export const feedback = [
     id: "feedback-3",
     content:
       "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
-    img: people03,
+    name: "Expert Smart BP Kiosk",
+    title: "",
+    img: BPKiosk,
   },
+  
 ];
 
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+    title: "จังหวัดทั่วประเทศ",
+    value: "77",
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
+    title: "โรงพยาบาลให้การยอมรับ",
+    value: "500",
   },
   {
     id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    title: "ยอดขายจลอดทั้งปี",
+    value: "10,000+",
   },
 ];
 
@@ -155,26 +171,26 @@ export const footerLinks = [
 ];
 
 export const socialMedia = [
-  {
+ /*  {
     id: "social-media-1",
     icon: instagram,
     link: "https://www.instagram.com/",
-  },
+  }, */
   {
     id: "social-media-2",
     icon: facebook,
-    link: "https://www.facebook.com/",
+    link: "https://www.facebook.com/SmartEasyOPD",
   },
-  {
+ /*  {
     id: "social-media-3",
     icon: twitter,
     link: "https://www.twitter.com/",
-  },
-  {
+  }, */
+  /* {
     id: "social-media-4",
     icon: linkedin,
     link: "https://www.linkedin.com/",
-  },
+  }, */
 ];
 
 export const clients = [
